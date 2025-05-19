@@ -15,6 +15,12 @@ Analyze vortex shedding and wind loads on a high-rise building to ensure structu
   - Vortex Shedding Frequency: ~0.045 Hz.
 - **Software**: ANSYS Fluent, (for FFT).
 
+### Vortex Shedding Animation
+
+![Vortex Shedding Analysis](./vortex_gif.gif)
+
+> This was the first trial of my vortex shedding analysis. Since there was no symmetry in the setup, I re-centered the building in the domain and repeated the simulation.
+
 ## Mesh
 - [Meshed Structure](meshed_structure.png)  
   *417,414 elements, multizone quad/tri mesh.*
